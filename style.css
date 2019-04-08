@@ -1,0 +1,43 @@
+* {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: large;
+}
+
+.hero {
+  padding-bottom: 40px;
+}
+
+.hero .email {
+  color: #666;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 100px;
+  max-width: 1000px;
+}
+
+.accounts > ul {
+  list-style: none;
+  line-height: 1.15;
+  padding-left: 0;
+}
+
+.accounts > ul > li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
