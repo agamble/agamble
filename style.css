@@ -39,5 +39,7 @@ a {
   text-decoration: none;
 }
 
-
-
+.left-image {
+  float: left;
+  margin-right: 50px;
+}
