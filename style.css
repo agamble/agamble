@@ -10,17 +10,64 @@ h1 {
   font-size: large;
 }
 
-.hero {
+li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#food-places {
+  margin-top: 20px;
+}
+
+#food-places > li > div {
+  display: inline-block;
+}
+
+.life {
+  margin-top: 20px;
+}
+
+.tags {
+  color: #888;
+  font-size: 9pt;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.note {
+  font-size: 9pt;
+  color: #666;
+}
+
+.ul {
+  text-decoration: underline;
+}
+
+#home.hero {
   padding-bottom: 40px;
 }
 
-.hero .email {
+#home.hero .email {
   color: #666;
+}
+
+#home {
+  padding-top: 100px;
+}
+
+#food {
+  margin-top: 50px
 }
 
 .container {
   margin: 0 auto;
-  padding-top: 100px;
   max-width: 1000px;
 }
 
