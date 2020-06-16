@@ -10,9 +10,12 @@ h1 {
   font-size: large;
 }
 
+ul > li {
+  list-style-type: none;
+}
+
 li {
   margin-bottom: 10px;
-  list-style-type: none;
 }
 
 ul {
@@ -32,7 +35,7 @@ ul {
   margin-top: 20px;
 }
 
-.tags {
+.tags, .band {
   color: #888;
   font-size: 9pt;
 }
